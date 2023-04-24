@@ -1,1 +1,39 @@
-day1
+Installation of git
+     sudo -i
+    1  apt-get update -y
+    2  apt-get install git
+    3  git --version
+    4  git config --global user.name "maz"---------------------------------------authenticating user
+    5  git config --global user.email "mazyafai@gmail.com"
+    6  git config --global --list
+    7  pwd
+    8  cd /home/azureuser
+    9  ls
+   10  mkdir new1
+   11  cd new1\
+   12  cd new1
+   13  ls
+   14  history
+   15  ls
+   16  ls -a
+   17  git init---------------------------initializing git local repo
+   18  ls
+   19  ls -a
+   20  cd /.git
+   21  cd .git
+   22  ls
+   23  cd ..
+   24  echo "hello everyone today is the first day of training" > day1
+   25  ls
+   26  cat day1
+   27  git status
+   28  git add .   --------------------------to move files to staging area
+   29  git status
+   30  git commit -m "my first commit of first day"      -----------------to make file ready to be pushed
+   32  git log
+   33  git remote add origin https://github.com/MAZYAFAI/wallmart-usa.git-----------------------adding remote origin where u want to push your file
+   34  git push origin master---------------------cmd to push your file
+         username---------------provide your github username
+         password----------------provide you github access token
+   35  ls
+   36  history
